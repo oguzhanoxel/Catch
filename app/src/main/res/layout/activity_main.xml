@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="Time: 10"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView00"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView04"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView20"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView21"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView22"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView23"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView24"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView30"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView31"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView32"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView33"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView34"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView40"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView41"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView42"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView43"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+        <ImageView
+            android:onClick="increaseScore"
+            android:layout_weight="1"
+            android:id="@+id/imageView44"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/star"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="Score: 0"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
